@@ -19,7 +19,6 @@ while some != 0:
     choice = int(choice)
     if choice == 1:
             print ("Add user process starting...")
-            ### Take action as per selected menu-option ###
             user = raw_input("Add Username : ")
             list.insert(0,user)
             print list
@@ -31,6 +30,6 @@ while some != 0:
     elif choice == 3:
             print list
 
-    elif choice == 0:    ## default ##
+    elif choice == 0:   
             print ("Exiting.....")
             break
